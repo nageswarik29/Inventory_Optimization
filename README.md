@@ -1,9 +1,8 @@
 # 📦 Inventory Optimization using ABC, Safety Stock & EOQ  
 
 ## 🔹 Project Overview  
-This project analyzes inventory data (50 SKUs) to optimize supply chain decisions using **ABC Analysis, Safety Stock, Reorder Point (ROP), and Economic Order Quantity (EOQ)**.  
-
-The goal is to identify high-value SKUs, reduce holding costs, and balance service level with cost efficiency — relevant for large-scale e-commerce operations like **Flipkart**.  
+This project focuses on optimizing inventory management for 50 SKUs using **Excel-based analysis**.  
+The study applies **ABC Classification, Safety Stock, Reorder Point (ROP), and Economic Order Quantity (EOQ)** to balance service levels with cost efficiency.  
 
 ---
 
@@ -41,22 +40,22 @@ The dataset contains 50 products with the following attributes:
 
 ## 📊 Key Insights  
 - **Category A (18 SKUs)** contributed ~70% of annual value → tighter control needed.  
-- **Safety Stock** ranged from **7 to 133 units** → varied by demand volatility & lead time.  
-- **Top 10 SKUs** contributed **~44% of holding costs** → focus here maximizes savings.  
-- **EOQ optimization** reduced replenishment frequency and lowered total cost.  
+- **Safety Stock** ranged from **7 to 133 units** → varies by demand uncertainty and lead time.  
+- **Top 10 SKUs** contributed **~44% of holding costs** → prioritizing these reduces cost significantly.  
+- **EOQ optimization** indicated lower replenishment frequency → improved efficiency.  
 
 ---
 
 ## 🛠️ Tools Used  
-- **Excel** – Calculations, sorting, pivot tables  
-- **Python (Pandas, NumPy, Matplotlib)** – Automation & visualizations  
-- **Power BI / Tableau** (optional) – Dashboarding  
+- **Microsoft Excel**  
+   - Formulas for ABC, SS, ROP, EOQ  
+   - Sorting & filtering for ABC categories  
+   - MIN/MAX functions for range analysis  
+   - Charts for visualization  
 
 ---
 
 ## 📌 Applications  
-- Helps reduce **stockouts** while minimizing **holding costs**.  
-- Useful for **e-commerce supply chains** where fast-moving SKUs require special attention.  
-
- 
+- Prevents **stockouts** while minimizing **holding costs**.  
+- Directly applicable in **e-commerce inventory planning** (e.g., Flipkart supply chain).  
 
